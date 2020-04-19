@@ -57,6 +57,7 @@
 //! ```
 
 #![no_std]
+#![feature(cfg_doctest)]
 #![cfg_attr(
     feature = "unstable_const",
     feature(
